@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexTestSuite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <testClassName>TestPropertyController61</testClassName>
+    <testClassName>TestPropertyController62</testClassName>
+    <testClassName>TestPropertyController63</testClassName>
+    <testClassName>TestPropertyController64</testClassName>
+    <testClassName>TestPropertyController65</testClassName>
+</ApexTestSuite>
