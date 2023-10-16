@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<ApexClass
-    xmlns="urn:metadata.tooling.soap.sforce.com"
-    fqn="PropertyController3"
->
-    <apiVersion>58.0</apiVersion>
-    <status>Active</status>
-</ApexClass>
