@@ -11,9 +11,9 @@ for i in {1..3}; do
     /bin/cp "$CLASS_PATH/GeocodingService.cls-meta.xml" "$CLASS_PATH/GeocodingService$i.cls-meta.xml"
 
     # Now the tests
-    /bin/cp "$CLASS_PATH/GeocodingServiceTest.cls" "$CLASS_PATH/GeocodingService$iTest.cls"
-    sed -i "" "s/GeocodingService/GeocodingService$i/g" "$CLASS_PATH/GeocodingService$iTest.cls"
+    /bin/cp "$CLASS_PATH/GeocodingServiceTest.cls" "$CLASS_PATH/GeocodingService${i}Test.cls"
+    sed -i "" "s/GeocodingService/GeocodingService$i/g" "$CLASS_PATH/GeocodingService${i}Test.cls"
 
     # Do the same for the test meta file
-    /bin/cp "$CLASS_PATH/GeocodingServiceTest.cls-meta.xml" "$CLASS_PATH/GeocodingService$iTest.cls-meta.xml"
+    /bin/cp "$CLASS_PATH/GeocodingServiceTest.cls-meta.xml" "$CLASS_PATH/GeocodingService${i}Test.cls-meta.xml"
 done
