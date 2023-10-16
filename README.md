@@ -2,6 +2,24 @@
 
 [![CI Workflow](https://github.com/trailheadapps/dreamhouse-lwc/workflows/CI/badge.svg)](https://github.com/trailheadapps/dreamhouse-lwc/actions?query=workflow%3ACI) [![Packaging Workflow](https://github.com/trailheadapps/dreamhouse-lwc/workflows/Packaging/badge.svg)](https://github.com/trailheadapps/dreamhouse-lwc/actions?query=workflow%3APackaging) [![codecov](https://codecov.io/gh/trailheadapps/dreamhouse-lwc/branch/main/graph/badge.svg)](https://codecov.io/gh/trailheadapps/dreamhouse-lwc)
 
+
+> **NOTE**
+> This repo was created to debug https://github.com/forcedotcom/cli/issues/2475  
+> Decided to create a repo for it since it could be useful in the future.
+>
+> Setup:
+> - Clone repo
+> - Open `scripts/generate-fast-tests.sh` (or use the slow one)
+> - Change the second number in brackets to desired number of tests `{1..2000}`
+> - Run `source scripts/generate-fast-tests.sh`
+>   - Wait 🕙    
+> - Follow the remaining Dreamhouse setup steps below
+> - Now you can run `sf run apex test` to run all your generated tests
+>
+> FYI: I had created some TestSuites, but added them to the `.forceignore` file since they were not needed to replicate the original issue
+
+
+
 > IMPORTANT: This is the new Lightning Web Components version of the Dreamhouse sample application. If you are looking for the Aura version, click [here](https://github.com/dreamhouseapp/dreamhouse-sfdx).
 
 ![dreamhouse-logo](dreamhouse-logo.png)
